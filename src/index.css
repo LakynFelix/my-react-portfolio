@@ -1,0 +1,161 @@
+:root {
+  --primary: #111344;
+  --secondary: #52154E;
+  --tertiary: #F9CFF2;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+div {
+  background-color: var(--tertiary);
+  color:white;
+  text-align: center;
+  
+}
+code {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+header {
+  background-color: var(--secondary);
+  text-decoration: none;
+
+}
+h2.name {
+padding-top: 2px;
+text-align: left;
+font-style: bold;
+padding-left: 100px;
+color: var(--tertiary);
+/* width: 50%; */
+}
+a {
+  font-size: large;
+}
+
+nav.a {
+  text-decoration: none;
+}
+nav.nav {
+  justify-content:right ;
+  text-decoration: none;
+  padding-top: 45px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+}
+nav a:hover {
+  color: var(--tertiary);
+  text-decoration: none;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+/* AboutMe */
+h1#about {
+padding-top: 60px;
+padding-bottom: 60px;
+color:var(--primargity);
+font-style:italic;
+text-align: center;
+align-content: center;
+font-style: underline;
+}
+.my-2 {
+display: flex;
+flex:space-between;
+justify-content: center;
+}
+
+
+h2 {
+  text-align: center;
+  font-style: italic;
+}
+
+h2, p , h3{
+  color: var(--primary);
+ text-align: center;
+ font-style: italic; 
+ width: 100%;
+ padding: 20px;
+ 
+}
+p{
+  color:white;
+  background-color: var(--secondary);
+  border-radius: 13px;
+  width: 50%;
+  margin-left: 355px;
+}
+
+img.rounded-circle {
+border:  16px var(--secondary);
+width: 200px;
+padding-bottom: 15px;
+}
+
+
+/* Portfolio */
+/* .card-content {
+display: flex;
+flex:space-between;
+justify-content: center;
+} */
+/* Contact Form */
+
+section {
+  padding: 30px;
+  text-align: center;
+
+}
+
+form {
+  width: 100%;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 10px;
+}
+textarea {
+  padding-top: 5px;
+  border-radius: 10px;
+  width: 500px;
+  height: 150px;
+  padding: 5px;
+}
+
+button {
+    background: var(--primary);
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    padding: 10px 15px;
+  }
+
+
+/* Footer */
+footer {
+  background-color: var(--secondary);
+  text-align: center;
+}
+
+h2.title {
+  color:var(--tertiary);
+}
