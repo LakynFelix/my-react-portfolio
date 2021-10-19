@@ -1,19 +1,12 @@
 import React from "react";
 
 function Nav() {
-
-
   const handleClick = () => {
-    console.log("click handled")
-  }
+    console.log("click handled");
+  };
 
   return (
     <header data-testid="header" className="flex-row px-1">
-      <h1>
-        <a href="/">
-          <span role="img" aria-label="camera"> 📸</span> Lakyn M Felix
-        </a>
-      </h1>
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
@@ -46,7 +39,6 @@ export default Nav;
 
 // import React from "react";
 
-
 // export default function Nav() {
 //   return (
 //  <header>
@@ -63,10 +55,8 @@ export default Nav;
 //         <NavLink to="/resume">
 //         <a href="#resume">Resume</a>&nbsp;&nbsp;&nbsp;&nbsp;
 //         </NavLink>
-//       </nav>  
+//       </nav>
 //        <h2 className="name">Lakyn M Felix</h2>
-//     </header> 
+//     </header>
 //   );
 // }
-
- 
