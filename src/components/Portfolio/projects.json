@@ -1,7 +1,7 @@
 [
     {
         "title": "DiscoverUp",
-        "description": "We created this website to view local events and nearby popular restaurants. Before Viewing please use the following link https://cors-anywhere.herokuapp.com/corsdemo",
+        "description": "We created this website to view local events and nearby popular restaurants. Before Viewing please use the following link  https://cors-anywhere.herokuapp.com/corsdemo",
          "image": "../../assets/projects/Discoverup.png",
          "github": "https://github.com/TylerLadas/DiscoverUp",
          "deployed": "https://tylerladas.github.io/DiscoverUp/"
