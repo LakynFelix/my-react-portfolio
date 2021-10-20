@@ -17,12 +17,13 @@ I built a react Portfolio.which incluedes about me, Portfolio, Resume section an
 # Usage: 
 Clone/Fork Repo, (npm install) & to start the server (npm start)
 
+#Project
 
 ## GitHub Profile: https://github.com/LakynFelix   
 ## GitHub Repo:  https://github.com/LakynFelix/my-react-portfolio/ 
 ## Email: Lakynmphotography@hotmail.com 
 
-## Preview of project
+## Preview of Project
 ![image](https://user-images.githubusercontent.com/84104126/138008258-e2bd0664-dd70-41d0-b30b-b538a1bc3f75.png)
 
 # License:  
