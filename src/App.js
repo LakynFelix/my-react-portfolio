@@ -8,19 +8,34 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
 function App() {
   return (
     <div>
       
-      <main>
-        <Nav></Nav>
-        <Header></Header>
-        <About></About>
-        <Portfolio></Portfolio>
-        <Resume></Resume>
-        <Contact></Contact>
-        <Footer></Footer>
-      </main>
+        <Router>
+          <Nav />
+          <Header />
+          <main className="container">
+          <Switch>
+            <Route path="/portfolio">
+              <Portfolio />
+            </Route>
+            <Route path="/resume">
+              <Resume />
+            </Route>
+            <Route path="/contact">
+              <Contact />
+            </Route>
+            <Route path="/">
+              <About />
+            </Route>
+          </Switch>
+          </main>
+        </Router>
+        <Footer />
+      
     </div>
   );
 }

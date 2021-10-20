@@ -2,28 +2,28 @@
     {
         "title": "DiscoverUp",
         "description": "We created this website to view local events and nearby popular restaurants. Before Viewing please use the following link  https://cors-anywhere.herokuapp.com/corsdemo",
-         "image": "../../assets/projects/Discoverup.png",
+         "image": "./assets/projects/Discoverup.png",
          "github": "https://github.com/TylerLadas/DiscoverUp",
          "deployed": "https://tylerladas.github.io/DiscoverUp/"
     },
 {
     "title": "BudgetTracker",
     "description": "Created a budget tracker application to allow for offline access and functionality.",
-     "image": "../../assets/projects/budgettracker.jpg",
+     "image": "./assets/projects/budgettracker.jpg",
      "github": "https://github.com/LakynFelix/BudgetTracker",
      "deployed": "https://budgettracker1345.herokuapp.com/"
 },
 {
     "title": "DailyPlanner",
     "description": "I had to created a Day scheduler that dispalys the correct date and gives you brackets from 9am-5pm to schedule your day the text in each row that will stay on the page if refresed ,and if the current time of day is in the past present of future they will have certain colors.",
-     "image": "../../assets/projects/DailyPlanner.jpg",
+     "image": "./assets/projects/DailyPlanner.png",
      "github": "https://github.com/LakynFelix/DailyPlanner",
      "deployed": "https://lakynfelix.github.io/DailyPlanner/"
 },
 {
     "title": "TechBlogMVC",
     "description": "A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers posts as well",
-     "image": "..",
+     "image": "./assets/projects/techblog.png",
      "github": "https://github.com/LakynFelix/TechBlogMVC",
      "deployed": "https://lakynstechblogmvc.herokuapp.com/"
 }

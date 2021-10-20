@@ -24,6 +24,7 @@ h1.headername {
 text-align: left;
 padding-left: 50px;
 padding-bottom: 20px;
+color: var(--tertiary);
 }
 
 header {
@@ -40,21 +41,24 @@ color: var(--tertiary);
 }
 a {
   font-size: large;
-}
 
+}
+ ul.navbar > li{
+list-style: none;
+padding-top: 20px;
+}
 nav.a {
   text-decoration: none;
 }
 nav.nav {
   justify-content:right ;
   text-decoration: none;
-  padding-top: 45px;
+  padding-top: 5px;
 }
 nav {
   display: flex;
   justify-content: right;
   text-decoration: none;
-  padding-top: 25px;
 }
 nav a:hover {
   color: var(--tertiary);
@@ -69,18 +73,14 @@ a:hover, a:visited, a:link, a:active
 
 /* AboutMe */
 h1#about {
-padding-top: 60px;
-padding-bottom: 60px;
-color:var(--primargity);
+padding-bottom: 30px;
+color:var(--primary);
 font-style:italic;
 text-align: center;
 align-content: center;
-font-style: underline;
 }
 
-p.aboutmesection {
-align-items: center;
-}
+
 
 .my-2 {
 display: flex;
@@ -93,7 +93,9 @@ h2 {
   text-align: center;
   font-style: italic;
 }
-
+h1{
+  color: var(--primary);
+}
 h2, p , h3{
   color: var(--primary);
  text-align: center;
@@ -106,9 +108,9 @@ p{
   color:white;
   background-color: var(--secondary);
   border-radius: 13px;
-  width: 50%;
+  width: 100%;
   align-items: center;
-  /* margin-left: 355px; */
+  margin-left: 355px;
 }
 
 img.rounded-circle {
@@ -117,8 +119,17 @@ width: 200px;
 padding-bottom: 15px;
 }
 
+.container{
+  align-items: center;
+}
 
-/* Portfolio */
+img {
+width: 200px;
+height: 200px;
+border: 10px solid var(--secondary);
+border-radius: 15px;
+
+}
 
 /* Contact Form */
 

@@ -1,5 +1,6 @@
 import React from "react";
 
+import {Link} from "react-router-dom";
 function Nav() {
   const handleClick = () => {
     console.log("click handled");
@@ -8,26 +9,26 @@ function Nav() {
   return (
     <header data-testid="header" className="flex-row px-1">
       <nav>
-        <ul className="flex-row">
+        <ul className="navbar">
           <li className="mx-2">
-            <a href="#about" onClick={() => handleClick()}>
+            <Link to ="/"> 
               About me
-            </a>
+              </Link>
           </li>
           <li className={"mx-2"}>
-            <a href="#portfolio" onClick={() => handleClick()}>
+            <Link to="/portfolio">
               Portfolio
-            </a>
+              </Link>
           </li>
           <li className={"mx-2"}>
-            <a href="#resume" onClick={() => handleClick()}>
+          <Link to="/resume" >
               Resume
-            </a>
+              </Link>
           </li>
           <li className={"mx-2"}>
-            <a href="#contact" onClick={() => handleClick()}>
+          <Link to="/contact"> 
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
