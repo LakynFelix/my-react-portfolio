@@ -2,15 +2,15 @@ import React from "react";
 import profileImage from "../../assets/cover/lakyn.jpg";
 function About() {
   return (
-    <section className=" about my-10 pt-200px">
-      <h1 id="about">About Me </h1>
-      <div className="my-2">
+      <section className="my-5" >
+        <h1 id="about">About Me</h1>
         <img
           src={profileImage}
           className="rounded-circle"
-          alt="Profile picture Lakyn Felix"
+          alt="Profile Picture Lakyn Felix"
         />
-        <p className="aboutmesection">
+        <div className="my-2">
+        <p className="aboutmesection w-30 mx-1">
           My Name is Lakyn Felix and I am a Student in the Full Stack Web
           Developer Program At Carleton University. I have a passion for
           learning new things and I am always looking for new ways to improve
@@ -19,9 +19,12 @@ function About() {
           and done many events, shows, weddings ect.. Including Bluefest,
           Glowfair, Riverside Festival and many more.
         </p>
-      </div>
-    </section>
-  );
-}
+        </div>
+      </section>
+    )
+  }
+  
+  export default About;
 
-export default About;
+
+

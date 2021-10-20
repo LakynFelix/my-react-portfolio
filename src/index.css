@@ -20,11 +20,16 @@ div {
 code {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
+h1.headername {
+text-align: left;
+padding-left: 50px;
+padding-bottom: 20px;
+color: var(--tertiary);
+}
 
 header {
   background-color: var(--secondary);
   text-decoration: none;
-
 }
 h2.name {
 padding-top: 2px;
@@ -36,19 +41,23 @@ color: var(--tertiary);
 }
 a {
   font-size: large;
-}
 
+}
+ ul.navbar > li{
+list-style: none;
+padding-top: 20px;
+}
 nav.a {
   text-decoration: none;
 }
 nav.nav {
   justify-content:right ;
   text-decoration: none;
-  padding-top: 45px;
+  padding-top: 5px;
 }
 nav {
   display: flex;
-  flex-direction: row;
+  justify-content: right;
   text-decoration: none;
 }
 nav a:hover {
@@ -58,19 +67,21 @@ nav a:hover {
 
 a:hover, a:visited, a:link, a:active
 {
+  color: var(--tertiary);
     text-decoration: none;
 }
 
 /* AboutMe */
 h1#about {
-padding-top: 60px;
-padding-bottom: 60px;
-color:var(--primargity);
+padding-bottom: 30px;
+color:var(--primary);
 font-style:italic;
 text-align: center;
 align-content: center;
-font-style: underline;
 }
+
+
+
 .my-2 {
 display: flex;
 flex:space-between;
@@ -82,7 +93,9 @@ h2 {
   text-align: center;
   font-style: italic;
 }
-
+h1{
+  color: var(--primary);
+}
 h2, p , h3{
   color: var(--primary);
  text-align: center;
@@ -95,7 +108,8 @@ p{
   color:white;
   background-color: var(--secondary);
   border-radius: 13px;
-  width: 50%;
+  width: 100%;
+  align-items: center;
   margin-left: 355px;
 }
 
@@ -105,13 +119,18 @@ width: 200px;
 padding-bottom: 15px;
 }
 
+.container{
+  align-items: center;
+}
 
-/* Portfolio */
-/* .card-content {
-display: flex;
-flex:space-between;
-justify-content: center;
-} */
+img {
+width: 200px;
+height: 200px;
+border: 10px solid var(--secondary);
+border-radius: 15px;
+
+}
+
 /* Contact Form */
 
 section {
@@ -127,9 +146,10 @@ form {
 input {
   font-size: 1rem;
   padding: 0.25rem;
-  border: 1px solid var(--dark);
+  border: 1px solid var(--secondary);
   outline: none;
   border-radius: 10px;
+  
 }
 textarea {
   padding-top: 5px;
@@ -137,6 +157,7 @@ textarea {
   width: 500px;
   height: 150px;
   padding: 5px;
+  color: var(--secondary);
 }
 
 button {
@@ -148,7 +169,13 @@ button {
     margin-bottom: 30px;
     padding: 10px 15px;
   }
+  label {
+color: var(--primary);
+font-weight: bold;
+font-size: 18px;
+padding: 5px;
 
+  }
 
 /* Footer */
 footer {

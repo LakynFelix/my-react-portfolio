@@ -4,20 +4,32 @@ import { capitalizeFirstLetter } from "../utils/helpers";
 
 function Cards() {
   return (
-    <div className="card-container">
-      {data.map((projects) => {
+    <div className="container">
+      <h1>Projects</h1>
+      {data.map((projects, i) => {
         return (
-          <div className="card">
-            <div className="card-image">
-              <img src={projects.image} alt="projects" />
-            </div>
+          <div className="card row justify-content-center " key={i}>
             <div className="card-content">
               <h2>{projects.title}</h2>
-              <p>{projects.description}</p>
-            </div>
-            <div className="card-action">
-              <a href={projects.github} alt="GitHub" />
-              <a href={projects.deploy} alt="Diployed " />
+              <div className="card-image">
+                <img
+                  src={process.env.PUBLIC_URL + projects.image}
+                  alt="projects"
+                />
+              </div>
+              <br />
+
+              <p className="w-30 mx-4 ">
+                {projects.description}
+                <br />
+                <a href={projects.github} target="_blank" alt="GitHub">
+                  GitHub
+                </a>
+                &nbsp;&nbsp;
+                <a href={projects.deployed} target="_blank" alt="Deployed">
+                  Deployed
+                </a>
+              </p>
             </div>
           </div>
         );
