@@ -21,6 +21,7 @@ Clone/Fork Repo, (npm install) & to start the server (npm start)
 
 ## GitHub Profile: https://github.com/LakynFelix   
 ## GitHub Repo:  https://github.com/LakynFelix/my-react-portfolio/ 
+## Deployed: https://lakynfelix.github.io/portfolio
 ## Email: Lakynmphotography@hotmail.com 
 
 ## Preview of Project
