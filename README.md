@@ -17,7 +17,7 @@ I built a react Portfolio.which incluedes about me, Portfolio, Resume section an
 # Usage: 
 Clone/Fork Repo, (npm install) & to start the server (npm start)
 
-#Project
+# Project
 
 ## GitHub Profile: https://github.com/LakynFelix   
 ## GitHub Repo:  https://github.com/LakynFelix/my-react-portfolio/ 
