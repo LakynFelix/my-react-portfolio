@@ -15,7 +15,6 @@ div {
   background-color: var(--tertiary);
   color:white;
   text-align: center;
-  
 }
 code {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
@@ -37,7 +36,6 @@ text-align: left;
 font-style: bold;
 padding-left: 100px;
 color: var(--tertiary);
-/* width: 50%; */
 }
 a {
   font-size: large;
@@ -80,8 +78,6 @@ text-align: center;
 align-content: center;
 }
 
-
-
 .my-2 {
 display: flex;
 flex:space-between;
@@ -121,6 +117,8 @@ padding-bottom: 15px;
 
 .container{
   align-items: center;
+  padding-bottom: 30px;
+
 }
 
 img {
@@ -128,8 +126,8 @@ width: 200px;
 height: 200px;
 border: 10px solid var(--secondary);
 border-radius: 15px;
-
 }
+
 
 /* Contact Form */
 
