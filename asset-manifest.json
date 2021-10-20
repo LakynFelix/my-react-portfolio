@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/LakynFelix/my-react-portfolio.git/static/css/main.3650cc82.chunk.css.git",
-    "main.js": "/LakynFelix/my-react-portfolio.git/static/js/main.33922e42.chunk.js.git",
-    "main.js.map": "/LakynFelix/my-react-portfolio.git/static/js/main.33922e42.chunk.js.map.git",
-    "runtime-main.js": "/LakynFelix/my-react-portfolio.git/static/js/runtime-main.a5dbb12e.js.git",
-    "runtime-main.js.map": "/LakynFelix/my-react-portfolio.git/static/js/runtime-main.a5dbb12e.js.map.hit",
-    "static/css/2.0a9ec390.chunk.css": "/LakynFelix/my-react-portfolio.git/static/css/2.0a9ec390.chunk.css.git",
-    "static/js/2.dffba67b.chunk.js": "/LakynFelix/my-react-portfolio.git/static/js/2.dffba67b.chunk.js.git",
-    "static/js/2.dffba67b.chunk.js.map": "/LakynFelix/my-react-portfolio.git/static/js/2.dffba67b.chunk.js.map.git",
-    "index.html": "/LakynFelix/my-react-portfolio.git/index.html.git",
-    "static/css/2.0a9ec390.chunk.css.map": "/LakynFelix/my-react-portfolio.git/static/css/2.0a9ec390.chunk.css.map.git",
-    "static/css/main.3650cc82.chunk.css.map": "/LakynFelix/my-react-portfolio.git/static/css/main.3650cc82.chunk.css.map.git",
-    "static/js/2.dffba67b.chunk.js.LICENSE.txt": "/LakynFelix/my-react-portfolio.git/static/js/2.dffba67b.chunk.js.LICENSE.txt.git",
-    "static/media/lakyn.40dfed06.jpg": "/LakynFelix/my-react-portfolio.git/static/media/lakyn.40dfed06.jpg.git"
+    "main.css": "/LakynFelix/my-react-portfolio/static/css/main.3650cc82.chunk.css",
+    "main.js": "/LakynFelix/my-react-portfolio/static/js/main.33922e42.chunk.js",
+    "main.js.map": "/LakynFelix/my-react-portfolio/static/js/main.33922e42.chunk.js.map",
+    "runtime-main.js": "/LakynFelix/my-react-portfolio/static/js/runtime-main.a5dbb12e.js",
+    "runtime-main.js.map": "/LakynFelix/my-react-portfolio/static/js/runtime-main.a5dbb12e.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/LakynFelix/my-react-portfolio/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.dffba67b.chunk.js": "/LakynFelix/my-react-portfolio/static/js/2.dffba67b.chunk.js",
+    "static/js/2.dffba67b.chunk.js.map": "/LakynFelix/my-react-portfolio/static/js/2.dffba67b.chunk.js.map.git",
+    "index.html": "/LakynFelix/my-react-portfolio/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/LakynFelix/my-react-portfolio/static/css/2.0a9ec390.chunk.css.map.",
+    "static/css/main.3650cc82.chunk.css.map": "/LakynFelix/my-react-portfolio/static/css/main.3650cc82.chunk.css.map",
+    "static/js/2.dffba67b.chunk.js.LICENSE.txt": "/LakynFelix/my-react-portfolio/static/js/2.dffba67b.chunk.js.LICENSE.txt",
+    "static/media/lakyn.40dfed06.jpg": "/LakynFelix/my-react-portfolio/static/media/lakyn.40dfed06.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a5dbb12e.js",
