@@ -2,7 +2,7 @@ import React from "react";
 import profileImage from "../../assets/cover/lakyn.jpg";
 function About() {
   return (
-      <section className="my-5" >
+      <section className="my-5 " >
         <h1 id="about">About Me</h1>
         <img
           src={profileImage}
@@ -10,7 +10,7 @@ function About() {
           alt="Profile Picture Lakyn Felix"
         />
         <div className="my-2">
-        <p className="aboutmesection w-30 mx-1">
+        <p className="mx-1 aboutmesection w-30">
           My Name is Lakyn Felix and I am a Student in the Full Stack Web
           Developer Program At Carleton University. I have a passion for
           learning new things and I am always looking for new ways to improve
