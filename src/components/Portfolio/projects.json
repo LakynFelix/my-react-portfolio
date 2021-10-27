@@ -6,6 +6,13 @@
          "github": "https://github.com/TylerLadas/DiscoverUp",
          "deployed": "https://tylerladas.github.io/DiscoverUp/"
     },
+    {
+        "title": "Bark Side Of The Moon",
+        "description": "Created a adoption pet site where you can search through cats and dogs",
+         "image": "/assets/projects/dark-side-of-the-moon.jpg",
+         "github": "https://github.com/adamgmcfadden/Bark-Side-of-the-Moon",
+         "deployed": "https://cryptic-hollows-09419.herokuapp.com/"
+    },
 {
     "title": "BudgetTracker",
     "description": "Created a budget tracker application to allow for offline access and functionality.",
@@ -27,5 +34,6 @@
      "github": "https://github.com/LakynFelix/TechBlogMVC",
      "deployed": "https://lakynstechblogmvc.herokuapp.com/"
 }
+
 
 ]
