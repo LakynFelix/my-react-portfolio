@@ -126,6 +126,7 @@ padding-bottom: 15px;
 }
 
 img {
+  border-radius: 50%;
 width: 200px;
 height: 200px;
 border: 10px solid var(--secondary);
@@ -151,7 +152,7 @@ input {
   border: 1px solid var(--secondary);
   outline: none;
   border-radius: 10px;
-  
+
 }
 textarea {
   padding-top: 5px;

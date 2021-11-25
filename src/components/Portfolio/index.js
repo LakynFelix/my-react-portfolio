@@ -19,10 +19,10 @@ function Cards() {
               </div>
               <br />
 
-              <p className="w-30 mx-4 ">
+              <p className="mx-4 w-30 ">
                 {projects.description}
                 <br />
-                <a href={projects.github} target="_blank" alt="GitHub">
+                <a href={projects.github} target="_blank" alt="GitHub">c
                   GitHub
                 </a>
                 &nbsp;&nbsp;
