@@ -22,7 +22,7 @@ function Cards() {
               <p className="mx-4 w-30 ">
                 {projects.description}
                 <br />
-                <a href={projects.github} target="_blank" alt="GitHub">c
+                <a href={projects.github} target="_blank" alt="GitHub">
                   GitHub
                 </a>
                 &nbsp;&nbsp;
@@ -39,4 +39,3 @@ function Cards() {
 }
 
 export default Cards;
-

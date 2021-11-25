@@ -18,23 +18,24 @@ export default function Resume() {
       <h3> Education</h3>
       <p className="w-50 mx-1">
         {" "}
-        Web Development Bootcamp at Carleton University
+        Web Development Bootcamp Certificate from Carleton University
       </p>
 
       <p class="w-50 mx-1">Interactive Multimedia Development</p>
 
-      <h3>Skills</h3>
+      <h3> Technical Skills</h3>
       <p className="w-50 mx-1">
         Proficient in HTML, CSS, JavaScript, Node.js, Express, MongoDB, MySQL
         and React.
       </p>
       <p className="w-50 mx-1">
         Familiar with Adobe Photoshop, Illustrator, Lightroom and InDesign.
-        &nbsp;&nbsp;
+      </p>
+        
+      <p className="w-50 mx-1 resume">
         <a href="https://docs.google.com/document/d/1QabWNIvyCiuNYhsyKUzZ6wm01AlVTKqVblEEjk56RT4/edit?usp=sharing" target="_blank">
            Resume
         </a>
-
       </p>
     </div>
   );

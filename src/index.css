@@ -190,3 +190,6 @@ footer {
 h2.title {
   color:var(--tertiary);
 }
+button.btn.btn-primary {
+  width: 20px;
+}
