@@ -31,7 +31,7 @@ export default function Resume() {
       <p className="w-50 mx-1">
         Familiar with Adobe Photoshop, Illustrator, Lightroom and InDesign.
         &nbsp;&nbsp;
-        <a href="../assets/resume/Resume 2021_lakynFelix.pdf" download>
+        <a href="../assets/resume/Lakyn Felix Resume 2021.pdf" download>
           Download Resume
         </a>
       </p>
