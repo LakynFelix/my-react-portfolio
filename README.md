@@ -12,7 +12,7 @@
 
  
 # Description: 
-I built a react Portfolio.which incluedes about me, Portfolio, Resume section and contact Me page.
+I built a react Portfolio.which includes about me, Portfolio, Resume section and contact Me page.
 
 # Usage: 
 Clone/Fork Repo, (npm install) & to start the server (npm start)
